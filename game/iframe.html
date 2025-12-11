@@ -165,7 +165,8 @@
 
 				// Show warning if neither check passed
 				if (!isOfficialSite) {
-					document.getElementById("stolen-warning").style.display = "flex";
+					// MODIFICADO: Se fuerza a 'none' para simular el botón "Continue Here" automáticamente
+					document.getElementById("stolen-warning").style.display = "none";
 				}
 			})();
 		</script>
